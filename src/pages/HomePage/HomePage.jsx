@@ -1,18 +1,20 @@
-import CarouselBanner from "../../components/SharedComponents/BannerSlider/CarouselSlider";
-import PopularClasses from "../../components/SharedComponents/classes/PopularClasses";
+import React from 'react'
+import CarouselSlider from '../../Components/BannerSlider/CarouselSlider'
+import PopularClasses from '../../Components/Classes/PopularClasses'
+import PopularInstructors from '../../Components/Instructors/PopularInstructors'
+import ExtraSection from '../../Components/HomePageExtraSection/ExtraSection'
 
 const HomePage = () => {
-    return (
-        <div>
-            <div className="mt-[300px]">
-                <hr className=" bg-white" />
-                <CarouselBanner></CarouselBanner>
-            </div>
-            <div className='md:mt-[300px] mt-[100px]'>
-                <PopularClasses></PopularClasses>
-            </div>
-        </div>
-    );
-};
+  return (
+    <>
+      <CarouselSlider />
+      <div className='md:mt-[500px] mt-[400px]'>
+        <PopularClasses />
+        <PopularInstructors />
+        <ExtraSection/>
+      </div>
+    </>
+  )
+}
 
-export default HomePage;
+export default HomePage

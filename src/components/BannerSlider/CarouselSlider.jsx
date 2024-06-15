@@ -1,4 +1,4 @@
-import  { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -62,7 +62,7 @@ function CarouselBanner() {
 
   return (
     <div
-      className="w-full absolute top-24 bg-center bg-cover md:h-[32rem] dark:border-b-2 dark:border-white carousel-banner h-[25rem] m-auto py-16 px-4   group"
+      className="w-full absolute bg-center bg-cover md:h-[32rem] dark:border-b-2 dark:border-white carousel-banner h-[25rem] m-auto py-16 px-4  top-0 group"
       style={{
         backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(${slides[currentIndex].image})`
       }}

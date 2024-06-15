@@ -1,5 +1,4 @@
-/* eslint-disable react/prop-types */
-
+import React from 'react'
 import { keyframes } from "@emotion/react";
 import { Fade } from "react-awesome-reveal";
 const InfoText = ({ title }) => {
