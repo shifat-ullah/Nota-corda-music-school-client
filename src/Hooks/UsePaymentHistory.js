@@ -9,7 +9,7 @@ const UsePaymentHistory = () => {
     queryKey: ['payHistory', user?.email],
     enabled: !loading && !!user?.email && !!localStorage.getItem("access-token"),
     queryFn: async () => {
-      const response = await axiosSecure(`http://localhost:5000/paymentHistory?email=${user?.email}`)
+      const response = await axiosSecure(`https://nota-corda-music-school-server.vercel.app//paymentHistory?email=${user?.email}`)
       // console.log("response from axios",response.data);
       return response.data
     },

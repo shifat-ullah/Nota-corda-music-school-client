@@ -6,7 +6,7 @@ import ClassCard from './ClassCard';
 const PopularClasses = () => {
   const [data, setData] = useState([])
   useEffect(() => {
-    fetch('http://localhost:5000/PopularClasses')
+    fetch('https://nota-corda-music-school-server.vercel.app//PopularClasses')
       .then(response => response.json())
       .then(data => {
         // console.log(data)

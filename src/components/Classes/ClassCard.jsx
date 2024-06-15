@@ -33,7 +33,7 @@ const ClassCard = ({ singleClass }) => {
       students
     };
     if (user?.email) {
-      fetch('http://localhost:5000/selectClasses', {
+      fetch('https://nota-corda-music-school-server.vercel.app//selectClasses', {
         method: 'POST',
         headers: {
           'content-type': 'application/json'

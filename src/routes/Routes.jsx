@@ -83,7 +83,7 @@ export const router = createBrowserRouter([
       {
         path: 'instructorClassUpdate/:id',
         element:<InstructorRoute><InstructorClassUpdate /></InstructorRoute>,
-        loader: ({ params }) => fetch(`http://localhost:5000/allClass/${params.id}`)
+        loader: ({ params }) => fetch(`https://nota-corda-music-school-server.vercel.app//allClass/${params.id}`)
       },
       {
         path: 'manage-classes',
@@ -96,7 +96,7 @@ export const router = createBrowserRouter([
       {
         path: 'class-feedback/:id',
         element: <AdminRoute><InstructorClassFeedback /></AdminRoute>,
-        loader: ({ params }) => fetch(`http://localhost:5000/allClass/${params.id}`)
+        loader: ({ params }) => fetch(`https://nota-corda-music-school-server.vercel.app//allClass/${params.id}`)
       }
     ]
   }

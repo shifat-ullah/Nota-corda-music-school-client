@@ -22,7 +22,7 @@ const PaymentHistoryPage = () => {
       confirmButtonText: 'Yes, delete it!'
     }).then((result) => {
       if (result.isConfirmed) {
-        fetch(`http://localhost:5000/payHistory/${id}`, {
+        fetch(`https://nota-corda-music-school-server.vercel.app//payHistory/${id}`, {
           method: "DELETE",
           headers: {
             'content-type': 'application/json'

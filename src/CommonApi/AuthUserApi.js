@@ -8,7 +8,7 @@ export const savedUser =(user,image) => {
     image,
   }
   // console.log(currentUser,'currentuser');
-  fetch(`http://localhost:5000/users`, {
+  fetch(`https://nota-corda-music-school-server.vercel.app//users`, {
     method: 'POST',
     headers: {
       'content-type':'application/json'

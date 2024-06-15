@@ -9,7 +9,7 @@ const UseSelectClass = () => {
     queryKey: ['selectClass', user?.email],
     enabled: !loading && !!user?.email && !!localStorage.getItem("access-token"),
     queryFn: async () => {
-      const response = await axiosSecure(`http://localhost:5000/selectClasses?email=${user?.email}`)
+      const response = await axiosSecure(`https://nota-corda-music-school-server.vercel.app//selectClasses?email=${user?.email}`)
       // console.log("response from axios",response.data);
       return response.data
     },
