@@ -1,5 +1,5 @@
 import { createBrowserRouter } from 'react-router-dom'
-import AllClasses from '../Components/Classes/AllClasses'
+
 import AllInstructors from '../Components/Instructors/AllInstructors'
 import Login from '../Components/Login/Login'
 import ErrorPage from '../Components/SharedComponents/ErrorPage'
@@ -21,6 +21,7 @@ import AdminRoute from './AdminRoute'
 import InstructorRoute from './InstructorRoute'
 import PrivateRoute from './PrivateRoute'
 import StudentRoute from './StudentRoute'
+import AllClasses from './../Components/Classes/AllClasses';
 
 
 export const router = createBrowserRouter([
@@ -107,3 +108,7 @@ export const router = createBrowserRouter([
 
 
 /////////////////////////////////////////////////////////
+
+///////////////////////////
+
+//////////////////////////////////////////
