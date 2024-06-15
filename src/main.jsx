@@ -5,8 +5,9 @@ import './style.css'
 import { RouterProvider } from 'react-router-dom'
 import { HelmetProvider } from 'react-helmet-async'
 import AuthProvider from './Providers/AuthProvider'
-import { router } from './Routes/Routes'
+
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
+import { router } from './routes/Routes'
 // import { QueryClient, QueryClientProvider } from 'react-query';
 
 // Create a client
