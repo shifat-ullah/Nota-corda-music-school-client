@@ -1,0 +1,80 @@
+[
+    {
+      "class_name": "Piano",
+      "instructor_name": "John Smith",
+      "email": "johnsmith@example.com",
+      "students": 12,
+      "image": "https://melody.ancorathemes.com/wp-content/uploads/2016/05/image-1-370x254.jpg",
+      "class_duration": "1 hour",
+      "class_level": "Beginner",
+      "available_seats": 5,
+      "description": "Learn to play the piano with expert guidance from John Smith in this beginner-level class. No prior experience required.",
+      "price": 50,
+      "status":"pending"
+    },
+    {
+      "class_name": "Guitar",
+      "instructor_name": "Emily Johnson",
+      "email": "emilyjohnson@example.com",
+      "students": 10,
+      "image": "https://melody.ancorathemes.com/wp-content/uploads/2016/05/services-1-370x370.jpg",
+      "class_duration": "1 hour",
+      "class_level": "Intermediate",
+      "available_seats": 3,
+      "description": "Take your guitar skills to the next level with Emily Johnson in this intermediate-level class. Perfect for those with some experience.",
+      "price": 40,
+      "status":"approved"
+    },
+    {
+      "class_name": "Violin",
+      "instructor_name": "Sarah Davis",
+      "email": "sarahdavis@example.com",
+      "students": 8,
+      "image": "https://melody.ancorathemes.com/wp-content/uploads/2016/05/services-2-370x370.jpg",
+      "class_duration": "1 hour",
+      "class_level": "Advanced",
+      "available_seats": 2,
+      "description": "Enhance your violin techniques and explore advanced repertoire under the guidance of Sarah Davis. This class is suitable for experienced violinists.",
+      "price": 60,
+      "status":"pending"
+    },
+    {
+      "class_name": "Singing",
+      "instructor_name": "Michael Thompson",
+      "email": "michaelthompson@example.com",
+      "students": 15,
+      "image": "https://melody.ancorathemes.com/wp-content/uploads/2016/05/image-2-370x254.jpg",
+      "class_duration": "1 hour",
+      "class_level": "Intermediate",
+      "available_seats": 3,
+      "description": "Discover the art of singing and improve your vocal skills with Michael Thompson in this intermediate-level class. Suitable for aspiring singers.",
+      "price": 45,
+      "status":"approved"
+    },
+    {
+      "class_name": "Drums",
+      "instructor_name": "David Wilson",
+      "email": "davidwilson@example.com",
+      "students": 6,
+      "image": "https://melody.ancorathemes.com/wp-content/uploads/2016/05/image-17.jpg",
+      "class_duration": "1 hour",
+      "class_level": "Beginner",
+      "available_seats": 4,
+      "description": "Learn the basics of drumming with David Wilson in this beginner-level class. No prior drumming experience required.",
+      "price": 55,
+      "status":"pending"
+    },
+    {
+      "class_name": "Music Theory",
+      "instructor_name": "Jennifer Lee",
+      "email": "jenniferlee@example.com",
+      "students": 7,
+      "image": "https://images.unsplash.com/photo-1526142684086-7ebd69df27a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8TXVzaWMlMjBUaGVvcnl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60",
+      "class_duration": "1 hour",
+      "class_level": "Intermediate",
+      "available_seats": 5,
+      "description": "Deepen your understanding of music theory concepts and expand your compositional skills with Jennifer Lee in this intermediate-level class.",
+      "price": 30,
+      "status":"approved"
+    }
+  ]
